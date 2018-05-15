@@ -12,6 +12,7 @@ $(document).ready(function () {
     //做自适应处理
     prepare_for_mobile();
     new_game();
+    $('#new_game').click(new_game);
 });
 
 function new_game() {
